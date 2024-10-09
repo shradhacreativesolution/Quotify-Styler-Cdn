@@ -1,0 +1,87 @@
+/* Style - 5: White Mode 
+By Ashmak. */
+
+.quote-container-Mahesh-Technicals,
+.mycard,
+blockquote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px auto;
+  box-shadow: 0 0 5px #ccf, rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #222222 !important;
+  width: 100%; /* Make width responsive */
+  max-width: 1200px; /* Set max width for larger screens */
+  font-family: Verdana;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: black !important; /* Use black text color */
+}
+
+blockquote:before,
+blockquote:after {
+  display: none !important;
+}
+
+.quote-actions-Mahesh-Technicals {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Stack buttons on mobile */
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.quote-actions-Mahesh-Technicals span {
+  padding: 10px 20px; /* Increased padding for better touch targets */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%; /* Full width for buttons */
+  margin: 5px 0; /* Space between buttons */
+}
+
+.quote-actions-Mahesh-Technicals span i {
+  color: white;
+}
+
+.quote-actions-Mahesh-Technicals .copy-action-Mahesh-Technicals {
+  background: #9a0001;
+}
+
+.quote-actions-Mahesh-Technicals .facebook-action-Mahesh-Technicals {
+  background: #3B5998;
+}
+
+.quote-actions-Mahesh-Technicals .whatsapp-action-Mahesh-Technicals {
+  background: linear-gradient(to right, #25D366, #128C7E);
+}
+
+.quote-actions-Mahesh-Technicals .telegram-action-Mahesh-Technicals {
+  background: linear-gradient(to right, #1DA1F2, #1877F2);
+}
+
+/* Mobile responsive styles */
+@media only screen and (max-width: 768px) {
+  .quote-container-Mahesh-Technicals,
+  .mycard,
+  blockquote {
+    padding: 15px; /* Reduce padding on mobile */
+    margin: 20px auto; /* Reduce margin on mobile */
+  }
+
+  .quote-actions-Mahesh-Technicals {
+    flex-direction: column; /* Stack actions vertically */
+  }
+
+  .quote-actions-Mahesh-Technicals span {
+    width: 90%; /* Make buttons responsive */
+    padding: 10px; /* Adjust padding */
+  }
+}
